@@ -1,0 +1,153 @@
+html {
+  height: 200%;
+  width: 100%;
+}
+
+* {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 0 3px #ce6f6f;
+}
+
+header li {
+  display: inline;
+  padding-left: 45px;
+}
+
+header li a {
+  color: #333;
+  text-decoration: none;
+  padding: 13px;
+  transition: .3s ease;
+}
+
+
+header li a:hover {
+  color: royalblue;
+}
+
+header ul #contact a {
+  color: white;
+  background-color: royalblue;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  top: -15px;
+  transition: .3s ease;
+}
+
+header ul #contact a:hover {
+  background-color: goldenrod;
+}
+
+.active {
+  color: royalblue;
+}
+
+.active2 {
+  color: #333;
+}
+
+.porto {
+  color: royalblue;
+}
+
+img {
+  padding: 80px;
+}
+
+div img {
+  float: left;
+  width: 50%;
+}
+
+.poscen {
+  position: absolute;
+  width: 70%;
+  left: 10%;
+}
+
+.poscen2 {
+  position: absolute;
+  width: 70%;
+  left: 10%;
+  top: 65%;
+}
+
+.poscen h2 {
+  padding-top: 30px;
+}
+
+.poscen3 {
+  position: absolute;
+  width: 70%;
+  left: 10%;
+  top: 130%;
+}
+
+.poscen4 {
+    position: absolute;
+    width: 70%;
+    left: 10%;
+    top: 200%;
+}
+
+.poscen5 {
+    position: absolute;
+    width: 70%;
+    left: 10%;
+    top: 260%;
+}
+
+.Buttonz li {
+    padding-bottom: 10px;
+    font-size: 50px;
+    list-style-type: none;
+}
+
+.Buttonz li a {
+  color: #333;
+  text-decoration: none;
+  padding: 13px;
+  transition: .3s ease;
+}
+
+
+.Buttonz li a:hover {
+  color: royalblue;
+}
+
+.skills ul {
+    text-align: center;
+    list-style-position: inside;
+    padding-right: 100px;
+    font-size: 50px;
+}
+
+    .skills ul li {
+        padding: 10px;
+        font-size: 50px;
+    }
+
+p {
+    font-size: 23px;
+    color: #484848;
+}
+.myDiv {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
